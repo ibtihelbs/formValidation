@@ -82,7 +82,19 @@ button:hover {
   bottom: 0;
   width: 100%;
 }
-
+.error span {
+  color: var(--Red);
+  font-size: 10px;
+  text-align: right;
+}
+.error {
+  background-image: url(./images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.error::placeholder {
+  color: var(--Red);
+}
 @media (max-width: 500px) {
   body {
     background-image: url(./images/bg-intro-mobile.png);
