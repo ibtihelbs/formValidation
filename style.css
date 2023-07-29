@@ -33,6 +33,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  max-height: 80%;
 }
 main > * {
   flex: 1;
@@ -46,6 +47,7 @@ h4 {
 }
 span {
   font-weight: 200;
+  display: none;
 }
 .flex-col {
   display: flex;
@@ -81,16 +83,19 @@ button:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
+  text-align: center;
 }
-.error span {
+.errorSpan {
   color: var(--Red);
   font-size: 10px;
   text-align: right;
+  display: block;
 }
 .error {
   background-image: url(./images/icon-error.svg);
   background-repeat: no-repeat;
   background-position: right;
+  border: 1px solid var(--Red);
 }
 .error::placeholder {
   color: var(--Red);

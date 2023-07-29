@@ -26,7 +26,7 @@
           invaluable.
         </p>
       </div>
-      <div id="form-wrap">
+      <div id="form-wrap" class="form-class">
         <h4>Try it free 7 days <span>then $20/mo. thereafter</span></h4>
         <form class="flex-col">
           <input
@@ -35,28 +35,30 @@
             id="firstName"
             placeholder="First Name"
           />
-          <span>First name is empty</span>
+          <span class="span">First name is empty</span>
           <input
             type="text"
             name="lastName"
             id="lastName"
             placeholder="Last Name"
           />
-          <span>First name is empty</span>
+          <span class="span">Last name is empty</span>
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Email Address"
+            value="helllo@hello.fr"
           />
-          <span>First name is empty</span>
+          <span class="span">Email is empty</span>
           <input
+            class="password"
             type="password"
             name="password"
             id="password"
             placeholder="Password"
           />
-          <span>First name is empty</span>
+          <span class="span">Password length is less then 8 characters</span>
           <button type="submit">Claim your free trial</button>
         </form>
       </div>
@@ -69,6 +71,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
-    <script src="script.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
